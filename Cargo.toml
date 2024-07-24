@@ -1,0 +1,11 @@
+[package]
+name = "port_scan"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.9", features = ["derive"] }
+colored = "2.1.0"
+derive = "1.0.0"
+regex = "1.10.5"
+tokio = { version = "1.38.0", features = ["rt", "rt-multi-thread", "net", "macros", "sync", "time", "io-std", "full"] }

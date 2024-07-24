@@ -1,0 +1,19 @@
+Example
+
+> port_scan --help
+    - display help panel 
+
+> port_scan -t 100 192.168.1.1
+    - scanning port using multi customize thread
+
+> port_scan -p 80,443 192.168.1.1
+    - scanning customize port 
+
+More Advance requirement
+> port_scan -p 21,22,23,25,80,443 192.168.1.1 -b
+    -scanning customize port with grapping the banner
+
+
+Library Need
+    - clap
+    - tokio
